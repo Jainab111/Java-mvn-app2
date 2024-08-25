@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Perfomr SCM Check-Out'
 				echo 'Cloning Java Maven App Code'
-				git 'https://github.com/LoksaiETA/Java-mvn-app2.git'
+				git 'https://github.com/Jainab111/Java-mvn-app2.git'
             }
         }
         stage('Java Application Build') {
